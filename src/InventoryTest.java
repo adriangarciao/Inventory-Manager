@@ -33,7 +33,7 @@ public class InventoryTest {
 
         // Clear current inventory
         System.out.println("\nClearing inventory in memory.");
-        inventory.clearInventory(); // You’ll need to create this method or manually clear your list
+        inventory.clearInventory();
 
         // Load from file
         System.out.println("\nLoading inventory from file:");
@@ -41,7 +41,7 @@ public class InventoryTest {
 
         // Print all loaded products
         System.out.println("\nLoaded products:");
-        inventory.printAllProducts(); // You’ll need to create this helper method
+        inventory.printAllProducts();
 
         InventoryManager manager = new InventoryManager();
         Product p1 = manager.createProduct("Laptop", 5, 999.99, "Electronics");
